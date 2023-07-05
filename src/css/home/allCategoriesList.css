@@ -1,0 +1,77 @@
+.section-genres {
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .section-genres {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section-genres {
+    margin-bottom: 0px;
+  }
+}
+
+.genres-wrapper,
+.card_description {
+  max-width: 335px;
+  height: 228px;
+}
+
+@media screen and (min-width: 768px) {
+  .genres-wrapper {
+    /* За макетом 340px, але довелося розширити, бо довгі назви не поміщаються в один рядок */
+    max-width: 337px;
+    height: 472px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .genres-wrapper {
+    max-width: 356px;
+  }
+}
+
+.genres-item:not(:last-child) {
+  margin-bottom: 4px;
+}
+@media screen and (min-width: 768px) {
+  .genres-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}
+.genres-btn {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'DM Sans';
+  /* За макетом 16px */
+  font-size: 15px;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-align: start;
+  border: none;
+  color: var(--category-color-light);
+  background-color: transparent;
+  cursor: pointer;
+
+  transition: color 250ms linear;
+}
+@media screen and (min-width: 768px) {
+  .genres-btn {
+    /* За макетом 18px */
+    font-size: 17px;
+    line-height: 1.33;
+    transition: font-weight 250ms ease, color 250ms ease;
+  }
+}
+.genres-btn:hover,
+.genres-btn:focus {
+  font-weight: 700;
+  color: var(--accent-color-light-theme);
+}
+
+.accent {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-color-light-theme);
+}

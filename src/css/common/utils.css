@@ -1,0 +1,86 @@
+/**
+  |============================
+  | Base style
+  |============================
+*/
+
+:root {
+  /* light theme  */
+  --login-modal-bg: rgba(17, 17, 17, 0.8);
+  --login-modal-borders: #111;
+  --login-modal-switch-btns: rgba(17, 17, 17, 0.5);
+  --login-modal-accent: #4f2ee8;
+  --login-modal-btn-cl: #f3f3f3;
+  --log-out-icon: #eac645;
+  --body-dark: #ffffff;
+  --bg-color-light: #f6f6f6;
+  --header-bg-color-light: #ffffff;
+  --text-logo-bookshelf-light: #000000;
+  --accent-color-light-theme: #4f2ee8;
+  --primary-text-color-light-theme: #111111;
+  --secondary-color-light-theme: #b4afaf;
+  --category-color-light: rgba(17, 17, 17, 0.6);
+  --scroll-light-theme: #e0e0e0;
+  --shop-card-empty-text: rgba(0, 0, 0, 0.6);
+  --bg-shopping-card: #ffffff;
+  --sing-up: rgba(17, 17, 17, 0.5);
+  --amazon: invert(0%) sepia(100%) saturate(0%) hue-rotate(21deg)
+    brightness(97%) contrast(103%);
+
+  /* dark theme */
+
+  --bg-color-dark: #202024;
+  --header-bg-color-dark: #111111;
+  --text-logo-bookshelf-dark: #534c4c;
+  --accent-color-dark-theme: #eac645;
+  --primary-text-color-dark-theme: #ffffff;
+  --secondary-color-dark-theme: #b4afaf;
+  --category-color-dark: rgba(255, 255, 255, 0.6);
+  --scroll-datk-theme: rgba(17, 17, 17, 0.6);
+  --shop-card-empty-text-dark: rgba(255, 255, 255, 0.6);
+}
+
+/*
+  |============================
+  | Container
+  |============================
+*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* --- mobile screen --- */
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+/* --- tablet screen --- */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* --- desktop screen --- */
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  background-color: var(--body-dark);
+}

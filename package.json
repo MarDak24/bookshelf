@@ -1,0 +1,40 @@
+{
+  "name": "project_team_6_js",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://MarDak24.github.io/bookshelf",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /bookshelf/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "@upjs/facile-validator": "^1.10.0",
+    "basiclightbox": "^5.0.4",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "debounce": "^1.2.1",
+    "firebase": "^9.14.0",
+    "jquery": "^3.7.0",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "swiper": "^9.4.1",
+    "tui-pagination": "^3.4.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4",
+    "process": "^0.11.10"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

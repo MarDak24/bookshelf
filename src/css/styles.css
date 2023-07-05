@@ -1,0 +1,31 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+@import url(/src/css/common/utils.css);
+@import url(/src/css/reset.css);
+@import url(/src/css/container.css);
+
+@import url(/src/css/common/buttons-styles.css);
+@import url(/src/css/scrollup.css);
+
+@import url(/src/css/home/allCategoriesList.css);
+@import url(/src/css/support.css);
+@import url(/src/css/home/home-page.css);
+@import url(/src/css/common/modal.css);
+@import url(/src/css/homePageBookRender.css);
+@import url(/src/css/home/booksByCategories.css);
+
+@import url(/src/css/loaders.css);
+@import url(/src/css/home/topBooks.css);
+
+@import url(/src/css/header.css);
+@import url(/src/css/shoppingListContainer.css);
+@import url(/src/css/shoppingList.css);
+@import url(/src/css/pagination.css);
+@import url(/src/css/themeDark.css);
+@import url(/src/css/logInModal.css);
+@import url(/src/css/home/scroll-style.css);

@@ -1,0 +1,33 @@
+.unvisible {
+  display: none;
+}
+.category-books-wrapper {
+  max-width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .category-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 24px;
+  }
+}
+.card-wrapper {
+  max-width: 335px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .card-wrapper {
+    max-width: 218px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .card-wrapper {
+    max-width: 180px;
+  }
+}

@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping list</title>
+    <link rel="icon" href="./images/favicon/favicon.png" sizes="any" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Include CSS -->
+  </head>
+  <body>
+    <!-- Header -->
+    <include src="./partials/header.html"></include>
+    <!-- Aside -->
+    <div class="shopping-list-container container">
+      <aside class="support-shopping-list">
+        <!-- Support Ukraine -->
+        <include src="./partials/support-asside.html"></include>
+      </aside>
+
+      <!-- Main -->
+
+      <main class="main-content">
+        <!-- Shopping list content -->
+        <include src="./partials/shopping-list-content.html"></include>
+        <!-- Pagination -->
+        <include src="./partials/pagination.html"></include>
+        <!-- Scroll up -->
+        <include src="./partials/scrollup-button.html"></include>
+        <!-- Burger menu -->
+        <include src="./partials/burger-menu.html"></include>
+        <!-- Autorization -->
+      </main>
+    </div>
+    <!-- JS -->
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
